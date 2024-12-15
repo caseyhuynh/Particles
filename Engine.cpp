@@ -6,7 +6,7 @@ using namespace std;
 
 Engine::Engine()
 {
-	m_Window.create(VideoMode(1920, 1080), "Particle Window");
+	m_Window.create(VideoMode::getDesktopMode(), "Particle Window");
 }
 
 void Engine::run()
